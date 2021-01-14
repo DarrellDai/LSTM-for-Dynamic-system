@@ -1,10 +1,12 @@
 # LSTM-for-Dynamic-system
-3 types of LSTMs for Dynamic system.
+Comparing 3 types of LSTMs for Dynamic system: Classic LSTM, Multiplicative LSTM (mLSTM) and LSTM with Attention.
 
-Data is from topographic barotropic model.
+Difference metrics are included: MSE, Kullback–Leibler divergence and 2-Wasserstein Distance.
 
-`classic_LSTM_barotropic.py`, `mLSTM_barotropic.py`, `LSTM_attention_barotropic.py` correspond to different types of LSTMs.
+Data is from topographic barotropic model, which can be downloaded from https://drive.google.com/drive/folders/1ceFUYHvZWMh35JWEAhDpjvoK0RK_fKbu?usp=sharing.
 
-`comparison_barotropic.py` compares to the performance of trained models of different LSTMs.
+run `train_model_para.py` to train model
+
+run `pred_model.py` to make prediction
 
 Results are collected in `Report.pdf`
