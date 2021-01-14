@@ -1,0 +1,1 @@
+Epoch	        Learning Rate.	Train Loss.	Accu. w1	Accu. w2	Accu. T1	Accu. T2	Accu. U	

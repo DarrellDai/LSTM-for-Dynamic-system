@@ -1,0 +1,22 @@
+checkpoint : checkpoint/BARO2_h10sU10
+data_file : data/baro2_h10sU10_dk1dU1
+epoch : 100
+gamma : 0.5
+input_length : 100
+iters : 100
+loss_type : mixed_s
+lr : 0.005
+manualSeed : 2090
+momentum : 0.9
+nhid : 50
+nlag : 1
+nloss : 50
+npred : 10
+nskip : 10
+resume : False
+schedule : [50, 80]
+seq_length_pred : 10000
+train_batch : 100
+train_length : 10109
+weight_decay : 0.0001
+
